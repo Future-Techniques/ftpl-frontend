@@ -1,0 +1,51 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic / Test / One-off scripts & dumps
+*.sql
+*.sqlite
+scratch/
+scripts/temp/
+test-*.js
+*.test.local
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing & Coverage
+/coverage
+
+# Production Builds & Bundles
+/build
+/dist
+build.zip
+*.zip
+*.tar.gz
+
+# Environment & Secrets (NEVER COMMIT)
+.env
+.env.*
+!.env.example
+
+# Firebase Cache & Local Artifacts
+.firebase/
+.firebaserc.local
+
+# OS & Editor files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
